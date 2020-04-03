@@ -18,3 +18,9 @@ to resize them and have them grow or shrink depending on the gamecontainer but I
 equal an even amount of rows and colums. Apparently you can't put javascript in CSS together otherwise I could
 make it read x number of rows and x number of colums based on the user input but that doesn't work. I might have to seek
 some help and guidance on that piece. 
+
+*DAY TWO*
+I was able to get the DIVS to line up in a grid with equal size! Not 100% sure why it works though so I def need to dig in a little bit
+more to really figure it out. My next challenge is figuring out how to clear the board of the current divs before creating the next set.
+Right now, it just adds more. Im going to take a break from this for a bit and dive into free code camps html/css projects a bit more 
+and get started on the javascript "certification" course they have. I'm hoping it will help me get more comfortable with the concepts. 

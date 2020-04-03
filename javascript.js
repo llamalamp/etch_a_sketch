@@ -1,15 +1,16 @@
+let boxes=16;
+const gameContainer = document.querySelector('#gameContainer');
 
+function initialGrid(boxes){
+    gameContainer.style.gridTemplateColumns= `repeat(${boxes},1fr)`;
+    gameContainer.style.gridTemplateRows= `repeat(${boxes},1fr)`;
+    // Create array to make grids
+    for(let i=0;i<boxes;i++){
+      for(let j=0;j<boxes;j++){
+      let boxElement = document.createElement('div');
+      boxElement.textContent="Text";
+      boxElement.classList.add('boxElement');
+      gameContainer.appendChild(boxElement);}
+  }}
 
-
-function createDiv () {
-    let numberInput =prompt("How many boxes, up to 64");
-    let convertToNumber = parseInt(numberInput);
-    let totalBoxes = convertToNumber * convertToNumber;
-    for (i=0; i<totalBoxes; i++){
-    const gameContainer = document.querySelector('#gameContainer');
-    const boxElement = document.createElement('div');
-    boxElement.textContent="Text";
-    boxElement.classList.add('boxElement');
-    gameContainer.appendChild(boxElement);}
-
-}
+initialGrid(16);
